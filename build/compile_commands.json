@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/zeyadhabib/Repos/template_proj/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -g -std=gnu++17 -arch arm64 -o CMakeFiles/hello.dir/main.cpp.o -c /Users/zeyadhabib/Repos/template_proj/main.cpp",
+  "file": "/Users/zeyadhabib/Repos/template_proj/main.cpp",
+  "output": "CMakeFiles/hello.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/zeyadhabib/Repos/template_proj/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest/include -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest -g -std=gnu++17 -arch arm64 -o CMakeFiles/hello_test.dir/tests/tests.cpp.o -c /Users/zeyadhabib/Repos/template_proj/tests/tests.cpp",
+  "file": "/Users/zeyadhabib/Repos/template_proj/tests/tests.cpp",
+  "output": "CMakeFiles/hello_test.dir/tests/tests.cpp.o"
+},
+{
+  "directory": "/Users/zeyadhabib/Repos/template_proj/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -I/Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googlemock/include -I/Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googlemock -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest/include -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/Users/zeyadhabib/Repos/template_proj/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googlemock/include -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googlemock -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest/include -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/Users/zeyadhabib/Repos/template_proj/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -I/Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest/include -I/Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/Users/zeyadhabib/Repos/template_proj/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest/include -isystem /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/Users/zeyadhabib/Repos/template_proj/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-aarch64-apple-darwin24-g++-14"
+	BuildStamp="20260202-1912-Experimental"
+	Name="Zeyads-Laptop.local"
+	Generator="ctest-4.0.1"
+	CompilerName="/opt/homebrew/bin/aarch64-apple-darwin24-g++-14"
+	CompilerVersion="14.2.0"
+	OSName="macOS"
+	Hostname="Zeyads-Laptop.local"
+	OSRelease="26.2"
+	OSVersion="25C56"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M3"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Feb 02 19:16 GMT</StartDateTime>
+		<StartTestTime>1770059810</StartTestTime>
+		<TestList/>
+		<EndDateTime>Feb 02 19:16 GMT</EndDateTime>
+		<EndTestTime>1770059810</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

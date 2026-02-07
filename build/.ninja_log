@@ -1,0 +1,13 @@
+# ninja log v6
+2	309	1770059562945909622	CMakeFiles/hello.dir/main.cpp.o	bef2b0bc8b42130a
+309	374	1770059563253482659	hello	785ed2b1424a3053
+2	769	1770059562945810496	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	41a1b94fa7f5bf7f
+2	822	1770059562946018956	CMakeFiles/hello_test.dir/tests/tests.cpp.o	66a3a3490daf5774
+2	915	1770059562946127040	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	e08158d9854b3e05
+1	1511	1770059562945696662	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	699b7b3f697d1305
+1	2826	1770059562945439161	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	ce56142ad02702e1
+2826	2871	1770059565769997824	lib/libgtest.a	876d64cf4a99b03a
+2871	2901	1770059565815316588	lib/libgtest_main.a	37a75523e69105c5
+2871	2905	1770059565815153712	lib/libgmock.a	6ad05569f08eccef
+2905	2935	1770059565848880074	lib/libgmock_main.a	7ce5c5d1cada7c68
+2901	2950	1770059565844927176	hello_test	6db51fb406f55511

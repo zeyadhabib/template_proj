@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/zeyadhabib/Repos/template_proj/build/debug/cmake_install.cmake",
+		"/Users/zeyadhabib/Repos/template_proj/build/debug/_deps/json-build/cmake_install.cmake",
+		"/Users/zeyadhabib/Repos/template_proj/build/debug/_deps/googletest-build/cmake_install.cmake",
+		"/Users/zeyadhabib/Repos/template_proj/build/debug/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/zeyadhabib/Repos/template_proj/build/debug/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

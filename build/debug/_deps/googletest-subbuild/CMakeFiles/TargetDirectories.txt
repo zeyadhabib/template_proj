@@ -1,0 +1,3 @@
+/Users/zeyadhabib/Repos/template_proj/build/debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/Users/zeyadhabib/Repos/template_proj/build/debug/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/Users/zeyadhabib/Repos/template_proj/build/debug/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
