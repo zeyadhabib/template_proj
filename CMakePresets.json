@@ -11,11 +11,11 @@
       "displayName": "Debug (tests)",
       "description": "Configure for Debug builds with tests enabled",
       "generator": "Ninja",
-      "binaryDir": "${sourceDir}/build/debug",
+      "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
         "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
-        "BUILD_TESTING": "ON"
+        "ENABLE_TESTING": "ON"
       }
     },
     {
@@ -33,14 +33,14 @@
   ],
   "buildPresets": [
     {
-      "name": "debug",
+      "name": "build-debug",
       "displayName": "Build Debug",
       "configurePreset": "debug",
       "description": "Build the project in Debug mode",
       "jobs": 6
     },
     {
-      "name": "release",
+      "name": "build-release",
       "displayName": "Build Release",
       "configurePreset": "release",
       "description": "Build the project in Release mode",

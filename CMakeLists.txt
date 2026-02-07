@@ -14,10 +14,10 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(json)
 
 add_executable(hello main.cpp)
-target_link_libraries(hello PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(hello PUBLIC nlohmann_json::nlohmann_json)
 
 # Testing
-if(BUILD_TESTING)
+if(ENABLE_TESTING)
   include(CTest)
   enable_testing()
 
@@ -31,6 +31,6 @@ if(BUILD_TESTING)
   FetchContent_MakeAvailable(googletest)
 
   add_executable(hello_test tests/tests.cpp)
-  target_link_libraries(hello_test PRIVATE gtest_main)
+  target_link_libraries(hello_test PUBLIC gtest_main)
   add_test(NAME hello_test COMMAND hello_test)
 endif()

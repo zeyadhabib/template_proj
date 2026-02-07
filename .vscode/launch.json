@@ -5,20 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(lldb) Launch Test",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/build/hello_test",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "CMake: Configure project"
-        },
-        {
-            "name": "(lldb) Launch",
+            "name": "(lldb) Configure and Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/hello",
@@ -28,15 +15,20 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "CMake: Configure project"
+            "preLaunchTask": "CMake: Build (Debug)"
         },
         {
-            "type": "cmake",
+            "name": "(lldb) Configure and Launch With Tests",
+            "type": "cppdbg",
             "request": "launch",
-            "name": "CMake: Configure project",
-            "cmakeDebugType": "configure",
-            "clean": true,
-            "configureAll": true
+            "program": "${workspaceFolder}/build/hello_test",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "CMake: Run Tests"
         }
     ]
 }
