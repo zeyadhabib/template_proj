@@ -1,7 +1,0 @@
-# ninja log v6
-1	478	1770059961429029321	CMakeFiles/hello_test.dir/tests/tests.cpp.o	c74897af4f87d919
-1116	1156	1770059962543184545	lib/libgtest.a	876d64cf4a99b03a
-1156	1183	1770059962583327820	lib/libgtest_main.a	37a75523e69105c5
-1183	1217	1770059962610155268	hello_test	a74690355b1ab42b
-1	1115	1770059961428583110	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	7d830bdd1e93bcd5
-1	454	1770059961428898570	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	69bed328ee8d811a
