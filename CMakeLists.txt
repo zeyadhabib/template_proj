@@ -31,6 +31,6 @@ if(ENABLE_TESTING)
   FetchContent_MakeAvailable(googletest)
 
   add_executable(hello_test tests/tests.cpp)
-  target_link_libraries(hello_test PUBLIC gtest_main)
+  target_link_libraries(hello_test PUBLIC gtest_main nlohmann_json::nlohmann_json)
   add_test(NAME hello_test COMMAND hello_test)
 endif()

@@ -1,3 +1,4 @@
+#include <nlohmann/json.hpp>
 #include <gtest/gtest.h>
 #include <string>
 
